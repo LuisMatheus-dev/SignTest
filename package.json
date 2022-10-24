@@ -1,0 +1,22 @@
+{
+  "name": "sign",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/LuisMatheus-dev/SignTest.git",
+  "author": "LuisMathues-dev <luismatheusbs.2016@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "ngrok": "ngrok http 3000",
+    "dev": "live-server --port=3000"
+  },
+  "dependencies": {
+    "@mediapipe/camera_utils": "^0.3.1640029074",
+    "@mediapipe/drawing_utils": "^0.3.1620248257",
+    "@mediapipe/hands": "^0.4.1646424915"
+  },
+  "devDependencies": {
+    "ngrok": "^4.3.3"
+  }
+}
+
+
